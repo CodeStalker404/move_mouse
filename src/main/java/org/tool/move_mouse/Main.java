@@ -17,12 +17,10 @@ public class Main {
         // Create a robot and start the infinite loop
         Robot robot = new Robot();
         while (Boolean.TRUE) {
-        	try {
-            // Sleep for 4 mins
-            Thread.sleep(4 * (60 * 1000));
-        	} catch(InterruptedException e) {
-        		e.printStackTrace();
-        	}
+            try {
+                // Sleep for 4 mins
+                Thread.sleep(4 * (60 * 1000));
+            } catch(InterruptedException e) { }
             
             // Extract current mouse position
             PointerInfo pointerInfo = MouseInfo.getPointerInfo();
