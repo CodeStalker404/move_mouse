@@ -1,0 +1,22 @@
+# Eclipse #
+.settings/
+.target
+.project
+.classpath
+
+# IntelliJ
+.idea/
+
+# Java #
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# Package Files #
+*.jar
+
+# Maven #
+target/
+
